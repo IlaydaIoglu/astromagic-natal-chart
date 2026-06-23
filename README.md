@@ -70,7 +70,11 @@ requests to the backend (`http://localhost:5001`).
 
 ## License
 
-Open source. Swiss Ephemeris data files are subject to their own license.
+This project is licensed under the MIT License — see [LICENSE](LICENSE).
+
+Note: Swiss Ephemeris (`pyswisseph`) is dual-licensed under AGPL and a
+commercial license. If you plan to use this in a closed-source product,
+check [Astrodienst's terms](https://www.astro.com/swisseph/).
 
 ---
 
