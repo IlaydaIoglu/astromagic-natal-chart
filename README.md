@@ -65,7 +65,7 @@ The UI opens at `http://localhost:5173`. Vite automatically proxies `/api`
 requests to the backend (`http://localhost:5001`).
 
 
-![Special Notes](form/note.png)
+![Special Notes](form/form.png)
 
 ## How It Works
 
