@@ -17,6 +17,9 @@ not include membership, profile, payment or similar sections.
 - Personalized notes matched against the natal chart (`/api/special-notes`)
 - Embedded coordinates for all 81 cities of Türkiye (works without internet)
 
+![Special Notes](images/note.png)
+
+
 ## Project Structure
 
 ```
@@ -61,12 +64,17 @@ npm run dev
 The UI opens at `http://localhost:5173`. Vite automatically proxies `/api`
 requests to the backend (`http://localhost:5001`).
 
+
+![Special Notes](form/note.png)
+
 ## How It Works
 
 1. On the home page you enter name, birth date/time and city.
 2. The frontend sends a request to the `/api/natal-chart` endpoint.
 3. The backend computes planet and house positions with Swiss Ephemeris.
 4. The result page draws the chart and shows the tables and matched notes.
+
+
 
 ## License
 
